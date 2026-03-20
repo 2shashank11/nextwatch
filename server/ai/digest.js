@@ -140,6 +140,7 @@ export async function generateDigest(report) {
     };
   } catch (err) {
     console.error(`[AI:Digest] Error calling Ollama/Gemini:`, err.message);
+    console.log(`[FALLBACK:Digest] Falling back to keyword-based digest generation`);
     return fallbackDigest(category);
   }
 }

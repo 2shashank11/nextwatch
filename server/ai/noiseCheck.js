@@ -51,6 +51,7 @@ export async function checkNoise(text) {
     return { label, usedFallback };
   } catch (err) {
     console.error(`[AI:NoiseCheck] Error calling Ollama/Gemini:`, err.message);
+    console.log(`[FALLBACK:NoiseCheck] Falling back to keyword-based classification`);
     return { label: fallbackNoiseCheck(text), usedFallback: true };
   }
 }

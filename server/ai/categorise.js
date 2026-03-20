@@ -60,6 +60,7 @@ export async function categoriseReport(text) {
     };
   } catch (err) {
     console.error(`[AI:Categorise] Error calling Ollama/Gemini:`, err.message);
+    console.log(`[FALLBACK:Categorise] Falling back to keyword-based categorisation`);
     return fallbackCategorise(text);
   }
 }
