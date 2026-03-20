@@ -19,6 +19,12 @@
 ### ● Test Commands
 `cd server && npm test`
 
+
+---
+
+## 🎥 Video Demo
+Video URL: [https://youtu.be/2T3gq_PZggs](https://youtu.be/2T3gq_PZggs)
+
 ---
 
 ## 🤖 AI Disclosure
@@ -128,8 +134,10 @@ When a user submits a report, it travels through a sophisticated multi-stage pip
 ## 4. Core Service Breakdown
 
 ### AI Services (`server/ai/`)
-- **`noiseCheck.js` / `categorise.js`**: Orchestrates calls to the AI model (Ollama/Gemini) with fallback protection.
+- **`noiseCheck.js` / `categorise.js` / `digest.js`**: Orchestrates calls to the AI model (Ollama/Gemini). The fallback is triggered within a `catch` block if the AI API throws an error (e.g., due to model unavailability or network issues), ensuring the report processing pipeline never breaks.
 - **`fallback.js`**: Contains the "Responsible AI" safety net—keyword-based rules that provide 100% uptime even if the AI is unavailable.
+    - **Noise Filter Fallback**: Implements a scoring system that compares `VENTING` signals (like "annoying", "worst") against `ACTIONABLE` signals (like "scam", "robbery"). If venting outweighs actionable intent, the report is suppressed.
+    - **Categorization & Severity**: Uses a dictionary-based lookup to assign categories (e.g., `phishing`, `infrastructure`) and severity levels (`CRITICAL` to `LOW`) based on presence of specific high-signal keywords.
 
 ### Logic Services (`server/services/`)
 - **`dedup.js`**: Handles the math for semantic grouping.
