@@ -1,0 +1,93 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(uuid()) @db.Uuid
+  name          String
+  email         String   @unique
+  password      String   @default("TEMP_PASS")
+  city          String   @default("Unknown")
+  zone              String?
+  wantsDailyDigest  Boolean  @default(true)
+  trustScore        Int      @default(10)
+  createdAt         DateTime @default(now())
+  safeCircleIds     String[] @db.Uuid
+
+  reports      Report[]
+  votes        Vote[]
+  digests      Digest[] @relation("DigestZoneUsers")
+  circleStatus CircleStatus?
+}
+
+model CircleStatus {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @unique @db.Uuid
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  status    String   // 'SAFE', 'ALERT', 'NEED_HELP'
+  message   String?
+  updatedAt DateTime @updatedAt
+}
+
+model Report {
+  id                String   @id @default(uuid()) @db.Uuid
+  userId            String?  @db.Uuid
+  user              User?    @relation(fields: [userId], references: [id])
+  rawText           String
+  city              String   @default("Unknown")
+  zone              String
+  timestamp         DateTime @default(now())
+  noiseLabel        String?  // ACTIONABLE | VENTING | AMBIGUOUS
+  category          String?  // phishing | violence | theft | infrastructure | natural_hazard | other
+  severity          String?  // CRITICAL | HIGH | MEDIUM | LOW
+  isVerified        Boolean  @default(false)
+  canonicalId       String?  @db.Uuid // points to the first/canonical report in a duplicate cluster
+  confirmationCount Int      @default(1)
+  embedding         String?  // JSON stringified float array
+  isFake            Boolean  @default(false)
+  isAnonymous       Boolean  @default(false)
+  createdAt         DateTime @default(now())
+
+  votes      Vote[]
+  duplicates Report[] @relation("Duplicates")
+  canonical  Report?  @relation("Duplicates", fields: [canonicalId], references: [id])
+  digests    Digest[]
+}
+
+model Vote {
+  id        String   @id @default(uuid()) @db.Uuid
+  reportId  String   @db.Uuid
+  report    Report   @relation(fields: [reportId], references: [id])
+  userId    String   @db.Uuid
+  user      User     @relation(fields: [userId], references: [id])
+  voteType  String   // verified | not_verified
+  createdAt DateTime @default(now())
+
+  @@unique([reportId, userId])
+}
+
+model Digest {
+  id          String   @id @default(uuid()) @db.Uuid
+  city        String   @default("Unknown")
+  zone        String
+  content     String
+  category    String
+  severity    String
+  actionSteps String[] @default([])
+  triggeredAt DateTime @default(now())
+  sentAt      DateTime?
+  reportId    String?  @db.Uuid
+
+  recipients User[] @relation("DigestZoneUsers")
+  report     Report? @relation(fields: [reportId], references: [id])
+}

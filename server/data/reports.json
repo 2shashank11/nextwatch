@@ -1,0 +1,242 @@
+[
+  {
+    "id": "f030c19a-69ab-4da3-aa56-ba4ec17bf42b",
+    "userId": "95dec71f-8533-4af4-9e41-0ac4225c3c25",
+    "rawText": "Got a call from someone claiming to be from SBI saying my account will be frozen if I don't share my OTP.",
+    "zone": "Jubilee Hills Zone 2",
+    "timestamp": "2026-03-17T10:23:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "29d6cd13-6aaa-4960-aa5c-7c5d8fbb42a5",
+    "userId": "a76070eb-dddd-410f-b96a-e3fb927a5e06",
+    "rawText": "Received a phishing email pretending to be from my bank asking me to verify my password.",
+    "zone": "Jubilee Hills Zone 2",
+    "timestamp": "2026-03-17T11:10:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "fab9891b-d1af-4405-a437-f51b0dff3963",
+    "userId": "95dec71f-8533-4af4-9e41-0ac4225c3c25",
+    "rawText": "Got a call from someone claiming to be from SBI saying my account will be frozen if I don't share my OTP.",
+    "zone": "Jubilee Hills Zone 2",
+    "timestamp": "2026-03-17T11:35:00Z",
+    "isAnonymous": true
+  },
+  {
+    "id": "a8996129-1188-4cb9-8ed0-aebd28ddc7be",
+    "userId": "a76070eb-dddd-410f-b96a-e3fb927a5e06",
+    "rawText": "Someone is running an OTP fraud scam, asking for bank account details and passwords over the phone.",
+    "zone": "Jubilee Hills Zone 2",
+    "timestamp": "2026-03-17T12:05:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "2820c3a5-ffcd-4a3b-ad87-721e2b8aa570",
+    "userId": "697ff502-e4b4-4e71-9ee6-c99285e6c673",
+    "rawText": "Got a phishing SMS saying I won a lottery and must click a link to claim a gift card.",
+    "zone": "Jubilee Hills Zone 1",
+    "timestamp": "2026-03-16T09:15:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "a9b0056b-6e84-4377-9bce-e88c9900bf4d",
+    "userId": "d6dd2b70-ee01-43a6-8777-e6ab547e4096",
+    "rawText": "Email pretending to be from income tax department asking for bank password to process refund.",
+    "zone": "Banjara Hills Zone 1",
+    "timestamp": "2026-03-15T08:40:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "47df92d7-9d56-49b8-acd5-4a906e978f7e",
+    "userId": "888aa2a9-a27a-4787-bdb3-47ca66ebd9e3",
+    "rawText": "Multiple residents reported scam calls asking for OTP to unblock credit cards.",
+    "zone": "Hitech City Zone 1",
+    "timestamp": "2026-03-14T18:20:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "b72944c8-3f5d-4366-82d2-663b7473de8e",
+    "userId": "24d3da64-c5c5-4f6f-8c2c-310c053e21d8",
+    "rawText": "Got a fraud call threatening to close my bank account unless I verify my PAN and OTP.",
+    "zone": "Hitech City Zone 2",
+    "timestamp": "2026-03-13T14:05:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "02ffefe8-c0d1-40cb-b702-86211b6c1d83",
+    "userId": "195d5316-e4de-414b-8d9a-6416e9b7ec5c",
+    "rawText": "Heard about repeated phishing emails in the society WhatsApp group, asking people to reset their password on a fake site.",
+    "zone": "Banjara Hills Zone 2",
+    "timestamp": "2026-03-12T20:45:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "51390618-c93c-47c0-bdc2-4d5005296efb",
+    "userId": "7f375391-c284-4b95-a695-a773fb2a88ba",
+    "rawText": "There is a loud fight outside my building, one person looked like they had a knife and someone shouted for help.",
+    "zone": "Madhapur Zone 1",
+    "timestamp": "2026-03-18T03:10:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "a4cd8c2b-2742-48f1-8f97-fdb56e7c8b55",
+    "userId": "7f375391-c284-4b95-a695-a773fb2a88ba",
+    "rawText": "People are still arguing loudly on the street, not sure if it is serious but it feels unsafe to step out.",
+    "zone": "Madhapur Zone 1",
+    "timestamp": "2026-03-18T03:25:00Z",
+    "isAnonymous": true
+  },
+  {
+    "id": "60eda2fb-a123-45bc-877d-ea38973978aa",
+    "userId": "2c7c33d6-df92-4472-8832-70f2d25440d9",
+    "rawText": "Two groups got into a physical fight near the park, one person mentioned calling the police.",
+    "zone": "Madhapur Zone 2",
+    "timestamp": "2026-03-17T21:30:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "b872e844-3c24-44f5-8340-f3a773ca2290",
+    "userId": "d6dd2b70-ee01-43a6-8777-e6ab547e4096",
+    "rawText": "Saw a man following a woman for several blocks late at night, looked suspicious and she seemed uncomfortable.",
+    "zone": "Banjara Hills Zone 1",
+    "timestamp": "2026-03-16T22:10:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "1a71cb8a-a7de-427d-896e-855919fd1d73",
+    "userId": "697ff502-e4b4-4e71-9ee6-c99285e6c673",
+    "rawText": "Heard shouting and what sounded like something breaking in the apartment next door.",
+    "zone": "Jubilee Hills Zone 1",
+    "timestamp": "2026-03-15T23:05:00Z",
+    "isAnonymous": true
+  },
+  {
+    "id": "d99e716d-024b-4bef-a981-46d03090d4e8",
+    "userId": "24d3da64-c5c5-4f6f-8c2c-310c053e21d8",
+    "rawText": "Friend reported an attempted mugging near the metro station, the person ran away when people gathered.",
+    "zone": "Hitech City Zone 2",
+    "timestamp": "2026-03-14T19:40:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "1d3ee1ad-cd11-4ae4-a89f-0ba59dc64223",
+    "userId": "95dec71f-8533-4af4-9e41-0ac4225c3c25",
+    "rawText": "Bike was stolen from the basement parking during the night, CCTV shows someone lifting it and leaving quickly.",
+    "zone": "Jubilee Hills Zone 2",
+    "timestamp": "2026-03-17T05:20:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "3e481bc5-504b-4d6b-9858-b225c991eb0a",
+    "userId": "195d5316-e4de-414b-8d9a-6416e9b7ec5c",
+    "rawText": "Car window smashed and laptop bag stolen from inside while parked on the street.",
+    "zone": "Banjara Hills Zone 2",
+    "timestamp": "2026-03-16T07:45:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "04147f72-1e9c-464d-bd38-9d63bf136018",
+    "userId": "888aa2a9-a27a-4787-bdb3-47ca66ebd9e3",
+    "rawText": "Neighbor's house was broken into when they were away for the weekend, cash and jewelry missing.",
+    "zone": "Hitech City Zone 1",
+    "timestamp": "2026-03-15T12:30:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "63c1bb0d-2412-4edb-924e-72281d0a8ccb",
+    "userId": "7f375391-c284-4b95-a695-a773fb2a88ba",
+    "rawText": "Phone was snatched from my hand near the bus stop, the person escaped on a bike.",
+    "zone": "Madhapur Zone 1",
+    "timestamp": "2026-03-14T17:00:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "38bdf2ef-737f-4169-b434-8104bf819806",
+    "userId": "bbb86be3-afb0-41f2-94f9-96e14fe949c3",
+    "rawText": "Wallet went missing from my bag in a crowded grocery store, likely a pickpocket.",
+    "zone": "General Zone",
+    "timestamp": "2026-03-13T16:20:00Z",
+    "isAnonymous": true
+  },
+  {
+    "id": "11562a62-e21c-4960-a8b8-ff54e2a9993d",
+    "userId": "697ff502-e4b4-4e71-9ee6-c99285e6c673",
+    "rawText": "Major pothole on the main road near the signal causing vehicles to swerve suddenly.",
+    "zone": "Jubilee Hills Zone 1",
+    "timestamp": "2026-03-18T06:40:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "44139b82-2f2b-45d2-a118-eb59ed46a4c1",
+    "userId": "d6dd2b70-ee01-43a6-8777-e6ab547e4096",
+    "rawText": "Streetlight not working on our lane for three nights, area is very dark and feels unsafe.",
+    "zone": "Banjara Hills Zone 1",
+    "timestamp": "2026-03-17T19:15:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "2575b291-c708-4e73-b27e-46d2e9752ad4",
+    "userId": "2c7c33d6-df92-4472-8832-70f2d25440d9",
+    "rawText": "Frequent low water pressure and sudden cuts in the morning, people are forced to use stored water.",
+    "zone": "Madhapur Zone 2",
+    "timestamp": "2026-03-16T04:30:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "b0513d44-f538-43f9-bae5-857eede3d116",
+    "userId": "888aa2a9-a27a-4787-bdb3-47ca66ebd9e3",
+    "rawText": "Smell of gas leak near the corner tea shop, multiple people noticed it in the evening.",
+    "zone": "Hitech City Zone 1",
+    "timestamp": "2026-03-15T18:55:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "486ff7b4-ebb6-4898-85c5-181fcd74368f",
+    "userId": "24d3da64-c5c5-4f6f-8c2c-310c053e21d8",
+    "rawText": "Construction debris left on the footpath forcing pedestrians to walk on the road.",
+    "zone": "Hitech City Zone 2",
+    "timestamp": "2026-03-14T09:50:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "5996a588-4673-4d9c-8691-cdd9325995f4",
+    "userId": "195d5316-e4de-414b-8d9a-6416e9b7ec5c",
+    "rawText": "Water logging near the underpass whenever it rains, vehicles struggle to pass.",
+    "zone": "Banjara Hills Zone 2",
+    "timestamp": "2026-03-13T07:30:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "03350850-2e1f-4e65-8990-82f47d38845d",
+    "userId": "7f375391-c284-4b95-a695-a773fb2a88ba",
+    "rawText": "Heavy rain caused minor flooding in the ground floor parking, water entering some low-lying shops.",
+    "zone": "Madhapur Zone 1",
+    "timestamp": "2026-03-17T02:50:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "c8f2b0d9-3b9b-4706-a231-5257118a2382",
+    "userId": "2c7c33d6-df92-4472-8832-70f2d25440d9",
+    "rawText": "Short but intense thunderstorm with strong winds broke a few tree branches near the park.",
+    "zone": "Madhapur Zone 2",
+    "timestamp": "2026-03-16T13:10:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "d042ed77-6fd4-4e62-975a-62c72ec921c8",
+    "userId": "888aa2a9-a27a-4787-bdb3-47ca66ebd9e3",
+    "rawText": "Smoke and small fire reported near an electrical transformer, fire brigade arrived and controlled it quickly.",
+    "zone": "Hitech City Zone 1",
+    "timestamp": "2026-03-15T21:20:00Z",
+    "isAnonymous": false
+  },
+  {
+    "id": "f040dda6-7690-492a-8d1e-f512791ba51e",
+    "userId": "bbb86be3-afb0-41f2-94f9-96e14fe949c3",
+    "rawText": "Ugh the traffic is unbelievable today, nobody cares about signals and it's the worst commute ever!!!",
+    "zone": "General Zone",
+    "timestamp": "2026-03-14T08:15:00Z",
+    "isAnonymous": false
+  }
+]

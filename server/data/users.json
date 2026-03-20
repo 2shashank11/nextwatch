@@ -1,0 +1,72 @@
+[
+  {
+    "id": "95dec71f-8533-4af4-9e41-0ac4225c3c25",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@example.com",
+    "zone": "Jubilee Hills Zone 2",
+    "trustScore": 45
+  },
+  {
+    "id": "697ff502-e4b4-4e71-9ee6-c99285e6c673",
+    "name": "Sneha Rao",
+    "email": "sneha.rao@example.com",
+    "zone": "Jubilee Hills Zone 1",
+    "trustScore": 30
+  },
+  {
+    "id": "d6dd2b70-ee01-43a6-8777-e6ab547e4096",
+    "name": "Vikram Shah",
+    "email": "vikram.shah@example.com",
+    "zone": "Banjara Hills Zone 1",
+    "trustScore": 60
+  },
+  {
+    "id": "195d5316-e4de-414b-8d9a-6416e9b7ec5c",
+    "name": "Nisha Kulkarni",
+    "email": "nisha.kulkarni@example.com",
+    "zone": "Banjara Hills Zone 2",
+    "trustScore": 25
+  },
+  {
+    "id": "a76070eb-dddd-410f-b96a-e3fb927a5e06",
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.com",
+    "zone": "Jubilee Hills Zone 2",
+    "trustScore": 55
+  },
+  {
+    "id": "7f375391-c284-4b95-a695-a773fb2a88ba",
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "zone": "Madhapur Zone 1",
+    "trustScore": 40
+  },
+  {
+    "id": "2c7c33d6-df92-4472-8832-70f2d25440d9",
+    "name": "Ankit Desai",
+    "email": "ankit.desai@example.com",
+    "zone": "Madhapur Zone 2",
+    "trustScore": 35
+  },
+  {
+    "id": "888aa2a9-a27a-4787-bdb3-47ca66ebd9e3",
+    "name": "Sara Iqbal",
+    "email": "sara.iqbal@example.com",
+    "zone": "Hitech City Zone 1",
+    "trustScore": 50
+  },
+  {
+    "id": "24d3da64-c5c5-4f6f-8c2c-310c053e21d8",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra@example.com",
+    "zone": "Hitech City Zone 2",
+    "trustScore": 20
+  },
+  {
+    "id": "bbb86be3-afb0-41f2-94f9-96e14fe949c3",
+    "name": "Meera Reddy",
+    "email": "meera.reddy@example.com",
+    "zone": "General Zone",
+    "trustScore": 10
+  }
+]

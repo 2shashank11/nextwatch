@@ -1,0 +1,38 @@
+server/node_modules
+
+server/.env
+server/.env.*.local
+server/.env.local
+
+server/generated/prisma
+
+# Dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# Local env files
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Testing
+client/coverage
+
+# Turbo
+client/.turbo
+
+# Vercel
+client/.vercel
+
+# Build Outputs
+client/dist
+
+# Debug
+client/npm-debug.log*
+
+# Misc
+client/.DS_Store
+client/*.pem
