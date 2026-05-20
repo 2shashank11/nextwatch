@@ -1,8 +1,5 @@
 # 🛡️ Nexwatch: Community Guardian Platform
 
-**Candidate Name:** Shashank Kumar
-**Scenario Chosen:** Community Safety & Digital Wellness
-
 ---
 
 ## 🚀 Quick Start
@@ -19,11 +16,6 @@
 ### ● Test Commands
 `cd server && npm test`
 
-
----
-
-## 🎥 Video Demo
-Video URL: [https://youtu.be/2T3gq_PZggs](https://youtu.be/2T3gq_PZggs)
 
 ---
 
